@@ -9,7 +9,8 @@
     "swagger-jsdoc": "^1.9.7"
   },
   "devDependencies": {
-    "jshint": "*"
+    "jshint": "*",
+    "cors" : "^2.8.4"
   },
   "scripts": {
     "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')"
