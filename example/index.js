@@ -32,7 +32,7 @@ swagger.init(app, {
         path.join(__dirname + '\\controllers\\system.js'),
         path.join(__dirname + '\\controllers\\frontend.js')
     ],
-});
+}, false);
 
 require('./controllers/general.js')(app);
 

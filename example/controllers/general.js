@@ -1,3 +1,17 @@
+/**
+ * @swagger
+ * tags:
+ *   name: Test
+ *   description: API test
+ * securityDefinitions:
+ *  jwt:
+ *     type: apiKey
+ *     name: Authorization
+ *     in: header
+ */
+
+
+
 var users = [{
         name: 'TJ',
         email: 'tj@vision-media.ca'
@@ -26,6 +40,8 @@ module.exports = function (app) {
      * @swagger
      *   /users:
      *     get:
+     *       security:
+     *       - jwt: []
      *       description: GET `User` objects.
      *       tags:
      *         - User
