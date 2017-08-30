@@ -5,12 +5,8 @@
   "author": "fliptoo <fliptoo.studio@gmail.com>, sposmen <sposmen@gmail.com>",
   "main": "./index",
   "dependencies": {
-    "express": "3.5.1",
-    "underscore": "*",
-    "doctrine": "*",
-    "js-yaml": "~2.1.0",
-    "coffee-script": "*",
-    "async": "~0.2.7"
+    "express": "^4.15.4",
+    "swagger-jsdoc": "^1.9.7"
   },
   "devDependencies": {
     "jade": "*",
