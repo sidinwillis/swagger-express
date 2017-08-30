@@ -9,7 +9,6 @@
     "swagger-jsdoc": "^1.9.7"
   },
   "devDependencies": {
-    "jade": "*",
     "jshint": "*"
   },
   "scripts": {
